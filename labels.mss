@@ -483,7 +483,7 @@
   text-halo-fill:@road_halo;
   text-halo-radius:1;
   text-min-distance:60;
-  text-size:7;
+  text-size:9;
   [zoom=9] { text-min-distance:50; }
   [zoom=9] { text-min-distance:60; }
   [zoom=10] { text-min-distance:60; }
@@ -522,12 +522,12 @@
   text-face-name:@sans;
   text-opacity:0.8;
   text-placement:line;
-  text-size:9;
+  text-size:11;
   text-fill:@road_text;
   text-halo-fill:@road_halo*2;
   text-halo-radius:.5;
   text-min-distance:40;
-  text-size:11;
+  text-size:8;
 }
 
 /* ================================================================== */
