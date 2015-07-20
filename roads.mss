@@ -80,6 +80,7 @@ come in as well.
   }
   line-join: round;
   line-color: @standard_case;
+  [zoom>16] { line-color: darken(@standard_case, 15%); }
   [bridge=1] { line-color: @standard_case * 0.8; }
   [type='motorway'],
   [type='motorway_link'] {
