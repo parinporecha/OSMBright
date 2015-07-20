@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.mss
+!*.mml
+
+# ...even if they are in subdirectories
+!*/
