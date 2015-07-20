@@ -68,9 +68,9 @@
   }
 
 /* ---- BUILDINGS ---- */
-#buildings[zoom>=12][zoom<=16] {
+#buildings[zoom>=15][zoom<=16] {
   polygon-fill:@building;
-  [zoom>=14] {
+  [zoom>=15] {
     line-color:darken(@building,5%);
     line-width:0.2;
   }
