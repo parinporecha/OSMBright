@@ -70,20 +70,20 @@ Map { font-directory: url(./fonts); }
  */
 
 @motorway_line:     #F59C34;
-@motorway_fill:     lighten(@motorway_line,10%);
+@motorway_fill:     lighten(@motorway_line,30%);
 @motorway_case:     @motorway_line * 0.9;
 
 @trunk_line:        #E4BC56;
-@trunk_fill:        lighten(@trunk_line,10%);
+@trunk_fill:        lighten(@trunk_line,30%);
 @trunk_case:        @trunk_line * 0.9;
 
 @primary_line:      #dddad4;
 @primary_fill_city: #ffffff;
-@primary_fill:      lighten(@primary_line,10%);
+@primary_fill:      lighten(@primary_line,30%);
 @primary_case:      @primary_line * 0.9;
 
 @secondary_line:    #d7d6cf;
-@secondary_fill:    lighten(@secondary_line,10%);
+@secondary_fill:    lighten(@secondary_line,30%);
 @secondary_case:    @secondary_line * 0.9;
 
 @standard_line:     @land * 0.85;
