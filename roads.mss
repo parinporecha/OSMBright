@@ -115,6 +115,7 @@ come in as well.
     [stylegroup='mainroad'] { line-width: @rdz11_med + 0.6; }
     /* No minor bridges yet */
     [stylegroup='service']  { line-width: 0; }
+    [stylegroup='minorroad']{ line-width: 0; }
     [stylegroup='noauto']   { line-width: 0; }
     [stylegroup='railway']  { line-width: 0; }
   }
@@ -130,9 +131,9 @@ come in as well.
   [zoom=13] {
     [stylegroup='motorway'] { line-width: @rdz13_maj + 1.5; }
     [stylegroup='mainroad'] { line-width: @rdz13_med + 1.5; }
-    [stylegroup='minorroad']{ line-width: @rdz13_min + 0.5; }
     /* No minor bridges yet */
     [stylegroup='service']  { line-width: 0; }
+    [stylegroup='minorroad']{ line-width: 0; }
     [stylegroup='noauto']   { line-width: 0; }
     [stylegroup='railway']  { line-width: 0; }
   }
