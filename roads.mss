@@ -61,7 +61,7 @@ come in as well.
 @rdz11_maj: 1.8;   @rdz11_med: 0.9;   @rdz11_min: 0.0;
 @rdz12_maj: 2.3;   @rdz12_med: 1.1;   @rdz12_min: 0.0;
 @rdz13_maj: 2.5;   @rdz13_med: 1.3;   @rdz13_min: 0.0;
-@rdz14_maj: 3;     @rdz14_med: 1.5;   @rdz14_min: 1.2;
+@rdz14_maj: 3;     @rdz14_med: 1.5;   @rdz14_min: 0.0;
 @rdz15_maj: 5;     @rdz15_med: 3;     @rdz15_min: 1;
 @rdz16_maj: 7;     @rdz16_med: 5;     @rdz16_min: 3;
 @rdz17_maj: 13;    @rdz17_med: 11;    @rdz17_min: 9;
@@ -140,7 +140,7 @@ come in as well.
   [zoom=14] {
     [stylegroup='motorway'] { line-width: @rdz14_maj + 1; }
     [stylegroup='mainroad'] { line-width: @rdz14_med + 1; }
-    [stylegroup='minorroad']{ line-width: @rdz14_min + 1; }
+    [stylegroup='minorroad']{ line-width: @rdz14_min + 0.5; }
     /* No minor bridges yet */
     [stylegroup='service']  { line-width: 0; }
     [stylegroup='noauto']   { line-width: 0; }
