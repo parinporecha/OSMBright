@@ -38,9 +38,9 @@
   [type='university']    { polygon-fill: @school; }
   [type='wood']          { polygon-fill: @wooded; }
   [type='residential']   { polygon-fill: @residential; }
+  [type='park']          { polygon-fill: @park; }
   [zoom>13]{
     [type='hospital']      { polygon-fill: @hospital; }
-    [type='park']          { polygon-fill: @park; }
     [type='parking']       { polygon-fill: @parking; }
     [type='pedestrian']    { polygon-fill: @pedestrian_fill; }
     [type='pitch']         { polygon-fill: @sports; }
