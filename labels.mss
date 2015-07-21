@@ -89,47 +89,51 @@
   [name='Mumbai'],
   [name='Hyderabad'],
   [name='Chennai'],
-  [name='Bangalore'],
-  [name='Delhi']{
-  text-name:'[name]';
-  [zoom<=6]{text-face-name:@sans}
-  [zoom>6]{text-face-name:@sans_bold;}
-  text-placement:point;
-  text-fill:@city_text;
-  text-halo-fill:@city_halo;
-  text-halo-radius:.5;
-  text-size: 13 +  @text_adjust;
+  [name='Bengaluru'],
+  [name='Delhi'] {
+    text-name:'[name]';
+    [zoom<=6]{text-face-name:@sans}
+    [zoom>6]{text-face-name:@sans_bold;}
+    text-placement:point;
+    text-fill:@city_text;
+    text-halo-fill:@city_halo;
+    text-halo-radius:.5;
+    text-size: 13 +  @text_adjust;
+  }
 }
-}
-#place::city[type='city'][zoom>6][zoom<=15] {
+#place::city[type='city'][zoom>=7][zoom<=15] {
   text-name:'[name]';
   text-face-name:@sans;
   text-placement:point;
   text-fill:@city_text;
   text-halo-fill:@city_halo;
   text-halo-radius:2;
-  [zoom<=8] {
-    text-size: 10;
+  [zoom=7] {
+    text-size: 12;
+    text-halo-radius:1;
+  }
+  [zoom=8] {
+    text-size: 13;
     text-halo-radius:1;
   }
   [zoom>10]{
     text-transform: uppercase;
   }
   [zoom=9] {
-    text-size:10;
+    text-size:14;
     text-wrap-width: 60;
   }
   [zoom=10] {
-    text-size:11;
+    text-size:15;
     text-wrap-width: 70;
   }
   [zoom=11] {
-    text-size:12;
+    text-size:15;
     text-character-spacing: 1;
     text-wrap-width: 80;
   }
   [zoom=12] {
-    text-size:13;
+    text-size:14;
     text-character-spacing: 1;
     text-wrap-width: 100;
   }
