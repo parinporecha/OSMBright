@@ -40,7 +40,7 @@ Map { font-directory: url(./fonts); }
 @landzoom:          #E4DFD3;
 @water:             #9BC2FF;
 @grass:             #CAE2BC;
-@beach:             #FFEEC7;
+@beach:             #F9F1B8;
 @park:              #CBDEAC;
 @cemetery:          #D6DED2;
 @wooded:            #C3D9AD;
