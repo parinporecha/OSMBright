@@ -69,12 +69,12 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     #F59C34;
-@motorway_fill:     lighten(@motorway_line,30%);
+@motorway_line:     #f0843c;
+@motorway_fill:     lighten(@motorway_line,10%);
 @motorway_case:     @motorway_line * 0.9;
 
-@trunk_line:        #CFAF25;
-@trunk_fill:        lighten(@trunk_line,30%);
+@trunk_line:        #d7cf34;
+@trunk_fill:        lighten(@trunk_line,10%);
 @trunk_case:        @trunk_line * 0.9;
 
 @primary_line:      #dddad4;
