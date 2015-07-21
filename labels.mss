@@ -164,18 +164,21 @@
   text-face-name:@sans;
   text-placement:point;
   text-fill:@town_text;
-  text-size:9;
+  text-size:10;
   text-halo-fill:@town_halo;
   text-halo-radius:1;
   text-wrap-width: 50;
   text-min-distance:15;
+  [zoom=9] {
+    text-size: 11;
+  }
   [zoom>=10] {
     text-halo-radius:2;
-    text-size: 10;
+    text-size: 11;
   }
-  [zoom>=11]{ text-size:11; }
+  [zoom>=11]{ text-size:12; }
   [zoom>=12]{
-    text-size:12;
+    text-size:13;
     text-line-spacing: 1;
   }
   [zoom>=13]{
