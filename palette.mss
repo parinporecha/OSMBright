@@ -37,6 +37,7 @@ Map { font-directory: url(./fonts); }
 /* ================================================================== */
 
 @land:              #F1EEE7;// #E4ECCF;
+@landlow:           #E9EBDE;
 @landzoom:          #F1EEE7;
 @water:             #9BC2FF;
 @grass:             #CAE2BC;

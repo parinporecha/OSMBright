@@ -12,7 +12,7 @@
 
 #land-low[zoom>=0][zoom<6],
 #land-high[zoom>=0][zoom<6]{
-  polygon-fill: @land;
+  polygon-fill: @landlow;
   polygon-gamma: 0.75;
 }
 #land-high[zoom>=6][zoom<=18]{
