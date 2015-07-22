@@ -10,17 +10,17 @@ and trunks. */
   [type='motorway'] { line-color: @motorway_line; }
   [type='trunk'] { line-color: @trunk_line; }
   [zoom=5] {
-    [type='motorway'] { line-width: 0.9; }
-    [type='trunk'] { line-width: 0.7; } }
+    [type='motorway'] { line-width: 0.45; }
+    [type='trunk'] { line-width: 0.45; } }
   [zoom=6] {
-    [type='motorway'] { line-width: 1; }
-    [type='trunk'] { line-width: 0.75; } }
-  [zoom=7] {
-    [type='motorway'] { line-width: 1.1; }
+    [type='motorway'] { line-width: 0.8; }
     [type='trunk'] { line-width: 0.8; } }
+  [zoom=7] {
+    [type='motorway'] { line-width: 0.9; }
+    [type='trunk'] { line-width: 0.9; } }
   [zoom=8] {
     [type='motorway'] { line-width: 1.5; }
-    [type='trunk'] { line-width: 1; } }
+    [type='trunk'] { line-width: 1.5; } }
 }
 
 /* At mid-level scales start to show primary and secondary routes
