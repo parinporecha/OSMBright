@@ -44,18 +44,20 @@ as well. */
   [type='trunk_link'] {
     line-color: @trunk_line;
   }
-  [type='primary'] { line-color: @primary_line; }
+  [type='primary'] { line-color: darken(@primary_line, 10%); }
   [type='secondary'] { line-color: @secondary_line; }
   [type='tertiary'] { line-color: @standard_line; }
   [zoom=9] {
-    [type='motorway'],[type='trunk'] { line-width: 1.4; }
-    [type='primary'],[type='secondary'],
-    [type='motorway_link'],[type='trunk_link'] { line-width: 0.6; }
+    [type='motorway'],[type='trunk'] { line-width: 1.8; }
+    [type='primary'] { line-width: 1.4; }
+    [type='secondary'],
+    [type='motorway_link'],[type='trunk_link'] { line-width: 1.1; }
   }
   [zoom=10] {
-    [type='motorway'],[type='trunk'] { line-width: 1.8; }
-    [type='primary'],[type='secondary'],
-    [type='motorway_link'],[type='trunk_link'] { line-width: 0.8; }
+    [type='motorway'],[type='trunk'] { line-width: 2.8; }
+    [type='primary'] { line-width: 2.0; }
+    [type='secondary'],
+    [type='motorway_link'],[type='trunk_link'] { line-width: 1.5; }
   }
 }
 
